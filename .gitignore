@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+/vcs.xml
+/misc.xml
+/lossPet_Help.iml
+/modules.xml
+/compiler.xml
+/jarRepositories.xml
+.idea
+.target/
+

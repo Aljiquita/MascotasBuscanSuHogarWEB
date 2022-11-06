@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Regristro</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="./css/forms.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <div class="logo">
+                <a title="index" href="index.html"><img class="masthead-avatar mb-5" src="./img/logoAzul.png" /></a>
+            </div>
+            <div class="divider-custom-icon"><i class="fas fa-cat "></i></div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Section-->
+    <section class=" white" id="white">
+        <br><br><br><br>
+    </section>
+
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container2">
+            <!-- Portfolio Section Heading-->
+            <br>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Registro
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-dog "></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="container2 p-2">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="container">
+                            <a class="navbar-brand" href="index.html"></a>
+                        </div>
+                        <p class="pb-0 mb-0 font-italic .small text-center">Ingrese los datos solicitados en el
+                            formulario para crear su usuario</p>
+                        <p class=" text-danger text-center" small pt-0 mt-0>*Todos los campos son obligatorios</p>
+
+                        <form id="formulario">
+                            <div class="row form-group">
+                                <label for="nombre" class="col-form-label col-md-4">Nombre</label>
+                                <input type="text" name="nombre" value="" id="nombre" class="form-control"
+                                    placeholder="nombre" required pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                                    title="Ingrese solo letras">
+                            </div>
+                            <div class="row form-group">
+                                <label for="apellido" class="col-form-label col-md-4">Apellido</label>
+                                <input type="text" name="apellido" value="" id="apellido" class="form-control"
+                                    placeholder="apellido" required pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="
+                                    Ingrese solo letras>
+                            </div>
+                            <div class=" row form-group">
+                                <label for="telefono" class="col-form-label col-md-4">Telefono</label>
+                                <input type="number" name="telefono" value="" id="telefono" class="form-control "
+                                    placeholder="311111111" required maxlength="10">
+                            </div>
+                            <div class="row form-group">
+                                <label for="correo" class="col-form-label col-md-4">Correo</label>
+                                <input type="email" name="correo" value="" id="correo" class="form-control"
+                                    placeholder="Correo@correo.com" required
+                                    pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[_a-z0-9]+)*(\.[a-z]{2,15})$"
+                                    title="Ingrese un correo valido">
+                            </div>
+                            <div class="row form-group">
+                                <label for="contraseña" class="col-form-label col-md-4">Contraseña</label>
+                                <input type="password" name="correo" value="" id="contraseña" class="form-control"
+                                    placeholder="contraseña" required minlength="3" maxlength="12">
+                            </div>
+                            <div class="div-center">
+                                <br><br>
+                                <button type="submit" class="btn width-100">Guardar</button>
+                                <br><br>
+                            </div>
+                            <div class="div-center">
+                                <a HREF="Login.html" class="nav-link1 col-8 ">Iniciar Sesión</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class=" footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">
+                        Colombia
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Siguenos en la web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About MBH</h4>
+                    <p class="lead mb-0">
+                        Mascotas buscan su hogar .
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+
+    <script src="./js/formulario.js" type="text/javascript"></script>
+    <script src="./js/scripts.js"></script>
+
+</body>
+
+</html>

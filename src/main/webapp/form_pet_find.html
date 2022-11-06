@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Registro Mascotas encontradas</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="./css/forms.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <div class="logo">
+                <a title="index" href="index.html"><img class="masthead-avatar mb-5" src="./img/logoAzul.png" /></a>
+            </div>
+            <div class="divider-custom-icon"><i class="fas fa-dog "></i></div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Section-->
+    <section class=" white" id="white">
+        <br><br><br><br>
+    </section>
+
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container2">
+            <!-- Portfolio Section Heading-->
+            <br>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Quiero volver a
+                casa
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-cat"></i></div>
+                <div class="divider-custom-line"></div>
+            </div><br>
+            <!-- Portfolio Grid Items-->
+            <div class="container2 p-2">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="container">
+                            <a class="navbar-brand" href="index.html"></a>
+                        </div>
+                        <h1 class="display-4">Mascotas Encontradas</h1>
+                        <hr class="bg-info">
+                        <p class="pb-0 mb-0 font-italic .small">Diligencie los datos correspondientes de la
+                            mascota y agregue una breve descripción de esta.</p>
+                        <p class=" text-danger" small pt-0 mt-0>*Todos los campos son obligatorios</p>
+
+                        <form id="formulario">
+                            <div class="row form-group">
+                                <label for="tipo" class="col-form-label col-md-4">Especie</label>
+                                <div class="form-group col-md-8">
+                                    <select class="form-control" id="especie" required>
+                                        <option>Canino</option>
+                                        <option>Felino</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="edad" class="col-form-label col-md-4">Edad aproximada</label>
+                                <div class="col-md-8">
+                                    <input type="text" name="edad" value="" id="edad" class="form-control "
+                                        placeholder="Ejm: 2 años" required>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="tipo" class="col-form-label col-md-4">Sexo</label>
+                                <div class="form-group col-md-8">
+                                    <select class="form-control" id="sexo" required>
+                                        <option>Macho</option>
+                                        <option>Hembra</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="color" class="col-form-label col-md-4">Color</label>
+                                <div class="col-md-8">
+                                    <input type="text" name="color" value="" id="color" class="form-control"
+                                        placeholder="Ejm: Negro con manchas cafés" required>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="raza" class="col-form-label col-md-4">Raza</label>
+                                <div class="col-md-8">
+                                    <input type="text" name="raza" value="" id="raza" class="form-control"
+                                        placeholder="Ejm: Labrador" required>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="descripcion" class="col-form-label col-md-4">Descripción</label>
+                                <div class="col-md-8">
+                                    <p class=" font-italic .small">Escriba una breve descripción de la
+                                        mascota,
+                                        lugar donde la encontro y
+                                        cualquier característica que nos ayude a encontrar el hogar del
+                                        peludito.</p>
+                                    <textarea rows="4" name="descripcion" value="" id="descripcion" class="form-control"
+                                        placeholder="Descripción..." required></textarea>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="fecha" class="col-form-label col-md-4">Fecha</label>
+                                <div class="col-md-8">
+                                    <input type="date" name="fecha" value="fecha" id="fecha" class="form-control"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="fot" class="col-form-label col-md-4">foto</label>
+                                <div class="col-md-8">
+                                    <p class=" font-italic .small">Pega en este campo el link de la foto que subiste a
+                                        "https://dash.img.vision/free-image-uploads"</p>
+                                    <input type="text" name="foto" value="" id="foto" class="form-control"
+                                        placeholder="https://d.img.vision/imagen/image.jpeg" required>
+                                </div>
+                            </div>
+                            <div class="div-center">
+                                <br><br>
+                                <button type="submit" class="btn width-100">Guardar</button>
+                                <br><br>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">
+                        Colombia
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Siguenos en la web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About MBH</h4>
+                    <p class="lead mb-0">
+                        Mascotas buscan su hogar .
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
+    <script src="../js/formulario.js"></script>
+
+</body>
+
+</html>
